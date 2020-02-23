@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+body header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  padding: 1rem 5rem;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 1 / 1 / span 1 / span 3;
+  font-family: 'Sintony', sans-serif;
+  font-weight: 900;
+}
+
+body header div {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 4 / span 1 / span 1;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+body header div img {
+  width: 8rem;
+  height: 70%;
+}
+
+body main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  padding: 1rem 5rem;
+  background-color: #2d4a44;
+  color: #ffffff;
+}
+
+body main section h3 {
+  font-size: 1.4rem;
+  font-family: 'Sintony', sans-serif;
+  font-weight: 500;
+}
+
+body main section p {
+  font-size: 1.4rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.css.map */

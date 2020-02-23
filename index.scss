@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    header{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        padding: 1rem 5rem;
+        background-color: #ffffff;
+        align-items: center;
+        h1 {
+            grid-area: 1 / 1 / span 1 / span 3;
+            font-family: 'Sintony', sans-serif; 
+            font-weight: 900;
+        }
+        div {
+            grid-area: 1 / 4 / span 1 / span 1;
+            justify-self: right;
+            img {
+                width: 8rem;
+                height: 70%;
+        
+            }
+        }
+        
+    }
+    main{
+        section{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            padding: 1rem 5rem;
+            background-color: #2d4a44;
+            color: #ffffff;
+
+            h3 {
+                font-size: 1.4rem;
+                font-family: 'Sintony', sans-serif;  
+                font-weight: 500;
+            }
+            p {
+                font-size: 1.4rem;
+                font-family: 'Quicksand', sans-serif; 
+                font-weight: 500;
+            }
+        }
+    }
+}
