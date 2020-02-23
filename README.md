@@ -2,20 +2,20 @@
 
 #Node.js
 
-npm install moment
+    npm install moment
 
-var moment = require('moment');
-moment().format();
+    var moment = require('moment');
+    
+    moment().format();
 
 
 #Browser
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
 
-<script src="moment.js"></script>
+    <script src="moment.js"></script>
 
-<script>
-    moment.locale("sv");
-
-    moment().format();
-</script>
+    <script>
+        moment.locale("sv");
+        moment().format();
+    </script>
