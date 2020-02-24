@@ -1,4 +1,6 @@
-#Moment.js
+Managing dates and times using Moment.js
+
+School project, learning moment.js
 
 #Browser
 
