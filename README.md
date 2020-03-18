@@ -21,3 +21,5 @@ School project, learning moment.js
     var moment = require('moment');
     
     moment().format();
+    
+    [Demo] (https//:louisebackstrom.github.io/Moment.js/)
