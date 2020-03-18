@@ -24,5 +24,4 @@ School project, learning moment.js
    
  
     
- #Moment
  [Demo] (https//:louisebackstrom.github.io/Moment.js/)
